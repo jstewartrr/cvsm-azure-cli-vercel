@@ -1,0 +1,14 @@
+{
+  "name": "cvsm-azure-cli-vercel",
+  "version": "1.0.0",
+  "description": "CV SM Azure CLI MCP Server for Vercel",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.0.0",
+    "@azure/arm-resources": "^5.0.0"
+  }
+}
