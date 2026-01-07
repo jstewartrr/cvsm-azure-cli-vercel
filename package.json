@@ -4,8 +4,7 @@
   "description": "CV SM Azure CLI MCP Server for Vercel",
   "main": "api/index.js",
   "scripts": {
-    "dev": "vercel dev",
-    "build": "vercel build"
+    "dev": "vercel dev"
   },
   "dependencies": {
     "@azure/identity": "^4.0.0",
